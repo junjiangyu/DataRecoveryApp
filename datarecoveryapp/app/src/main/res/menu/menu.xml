@@ -1,0 +1,10 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.broad.broadstream.SelectTerActivity">
+
+    <item
+        android:id="@+id/save_select_ter"
+        android:title="save_button"
+        app:showAsAction="always" />
+</menu>

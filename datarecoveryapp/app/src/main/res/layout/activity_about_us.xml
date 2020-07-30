@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="left"
+
+        android:orientation="vertical">
+
+        <ImageButton
+            android:layout_marginLeft="20dp"
+            android:id="@+id/backBtn1"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="效率源官网划分为新闻公告区、案例展示区、产品展示区、数据恢复实验室方案区、伙伴合作区几大模块部分，几大专业模块的整合使效率源官网整体信息覆盖广泛，其中正在筹建中的最新的效率源官网（企事业客户部专网）将会成为我国司法、涉密、保密、军工、系统集成等国家单位及大型企业专业技术咨询、产品购买、方案设计建设、项目合作集成的最前沿阵地平台，最新效率源官网(企事业客户部专网）依托于全球数据恢复界目前唯一具备专业整合技术、产品、方案、合作、培训于一体的专业部门团队—效率源企事业客户部（英译：Salvation Data VIP Client Dept），国家单位及系统集成商通过该部门及效率源官网（企事业客户部专网），可更广泛的获取数据恢复相关技术、产品、行业资讯、产品购买、方案建设、项目合作等多角度全面立体信息。"
+            android:textSize="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="140dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
